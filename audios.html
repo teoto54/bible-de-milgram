@@ -3,31 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Audios - La Bible de Milgram</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>La Bible de Milgram - Audios</title>
+  <link rel="stylesheet" href="style.css"> <!-- Si tu as un fichier CSS externe -->
 </head>
 <body>
+
   <header>
-    <h1>Enregistrements audios</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="textes.html">Textes</a></li>
-        <li><a href="videos.html">Vidéos</a></li>
-      </ul>
-    </nav>
+    <h1>La Bible de Milgram - Section Audios</h1>
   </header>
 
-  <section>
-    <h2>Écoutez les enregistrements des expérimentations de Milgram</h2>
-    <audio controls>
-      <source src="audio1.mp3" type="audio/mp3">
-      Votre navigateur ne prend pas en charge l'élément audio.
-    </audio>
-  </section>
+  <main>
+    <!-- Boucle pour chaque condition -->
+    <section class="audio-section">
+      <h2>Condition 1</h2>
+      <!-- Liste des enregistrements audio pour la condition 1 -->
+      <ul>
+        <li>
+          <h3>Sujet 1</h3>
+          <audio controls>
+            <source src="audio/condition1/sujet1.mp3" type="audio/mp3">
+            Votre navigateur ne supporte pas l'élément audio.
+          </audio>
+        </li>
+        <li>
+          <h3>Sujet 2</h3>
+          <audio controls>
+            <source src="audio/condition1/sujet2.mp3" type="audio/mp3">
+            Votre navigateur ne supporte pas l'élément audio.
+          </audio>
+        </li>
+        <!-- Ajouter ici d'autres sujets pour cette condition -->
+      </ul>
+    </section>
 
-  <footer>
-    <p>&copy; 2025 La Bible de Milgram. Tous droits réservés.</p>
-  </footer>
+    <!-- Répéter la structure pour chaque condition -->
+    <section class="audio-section">
+      <h2>Condition 2</h2>
+      <ul>
+        <li>
+          <h3>Sujet 1</h3>
+          <audio controls>
+            <source src="audio/condition2/sujet1.mp3" type="audio/mp3">
+            Votre navigateur ne supporte pas l'élément audio.
+          </audio>
+        </li>
+        <li>
+          <h3>Sujet 2</h3>
+          <audio controls>
+            <source src="audio/condition2/sujet2.mp3" type="audio/mp3">
+            Votre navigateur ne supporte pas l'élément audio.
+          </audio>
+        </li>
+        <!-- Ajouter ici d'autres sujets pour cette condition -->
+      </ul>
+    </section>
+
+    <!-- Répéter cette structure jusqu'à Condition 24 -->
+    <section class="audio-section">
+      <h2>Condition 24</h2>
+      <ul>
+        <li>
+          <h3>Sujet 1</h3>
+          <audio controls>
+            <source src="audio/condition24/sujet1.mp3" type="audio/mp3">
+            Votre navigateur ne supporte pas l'élément audio.
+          </audio>
+        </li>
+        <li>
+          <h3>Sujet 2</h3>
+          <audio controls>
+            <source src="audio/condition24/sujet2.mp3" type="audio/mp3">
+            Votre navigateur ne supporte pas l'élément audio.
+          </audio>
+        </li>
+        <!-- Ajouter ici d'autres sujets pour cette condition -->
+      </ul>
+    </section>
+
+  </main>
+
 </body>
 </html>
